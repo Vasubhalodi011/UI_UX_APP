@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:orientation="vertical"
+    tools:context=".Kedarnath">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:gravity="center"
+                android:text="Kedarnath Package Details"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            android:layout_gravity="center"
+            android:layout_margin="40sp"
+            android:src="@drawable/img_5" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:backgroundTint="#FFC107">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="   Couple Package Price 19999 Only"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Kedarnath"
+            android:layout_width="330dp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:backgroundTint="#00BCD4">
+
+            <TextView
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="   Subscribe Packge Here"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+</LinearLayout>
